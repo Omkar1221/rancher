@@ -9,7 +9,7 @@ Installing Docker and Running Rancher
    
 2. Run the following commands
 # install docker
-/* curl https://releases.rancher.com/install-docker/19.03.sh | sh /*
+curl https://releases.rancher.com/install-docker/19.03.sh | sh 
 # add the current user to the docker group
 sudo usermod -aG docker $USER
 # reauthenticate for the new group membership to take effect
